@@ -1,0 +1,254 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .header_nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    gap: 31.13px;
+    list-style-type: none;
+    text-transform: capitalize;
+    width: 283.38px;
+    height: 30.89px;
+    
+    
+}
+
+.navigation ul a{
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation ul a:hover{
+    color: red;
+    border-bottom: 1.5px solid #000;
+
+}
+
+.navigation nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+}
+
+ .head h1{
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19.45px;
+    line-height: 23.34px;
+    background-color: #FFE6E6;  
+    border-radius: 96.3px;
+    width: 239.25px;
+    height: 54.13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #FF2626;
+
+ }
+
+.hero_section{
+    display: flex;
+    justify-content: space-between;
+    width: 772.67px;
+    height: 560.26px;
+    position: absolute;
+    top :180px;
+    left:120px;
+    gap:62.25px
+}
+
+.head .paragraph{
+    font-family: Poppins;
+    font-size: 62.25px;
+    font-weight: 700;
+    line-height: 74.7px;
+    text-align: left;
+    text-transform: capitalize;
+    
+}
+
+.head .designatedText {
+width: Hug (563.18px);
+height: Hug (294.69px);
+gap:15.56px;
+font-family: Poppins;
+font-size: 62.25px;
+font-weight: 700;
+line-height: 74.7px;
+text-align: left;
+color: #FF2626;
+text-transform: capitalize;
+
+}
+.image img{
+    width: 498.01px;
+    height: 534.97px;
+    position: absolute;
+    bottom: 71.98px;
+    left: 480px;
+}
+
+.btn a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFE6E6;
+    padding: 10.16px, 20.32px, 10.16px, 20.32px;
+    gap: 10.16px;
+}
+
+
+.btn1 div{
+
+display: flex;
+align-items: center;
+position: relative;
+top: 40px;
+}
+
+.btn1 {
+    display: flex;
+    gap: 31.13px;
+}
+
+.link2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 26.3px;
+    width: 196.16px;
+    height: 55.3px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF2626;
+    padding: 23px;
+    gap: 15.56px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13.62px;
+    font-weight: 600;
+    line-height: 23.34px;
+    letter-spacing: 0.1em;
+
+}
+
+.nav_images{
+    display: none;
+}
+
+.imgs1{
+    text-transform: uppercase;
+    gap: 15.56px;
+}
+
+.Text{
+    padding-top: 20px;
+    color: #8B8B8B;
+
+}
+
+@media only screen  and (max-width: 768px){
+    .header_nav .nav_image {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    
+    }
+
+    .nav_images{
+        display: block;
+        padding: 10px;
+    }
+    .navigation ul {
+       display: none;
+       position: absolute;
+       left: 0;
+       padding: 50px;
+       line-height:57px;
+    
+    }
+
+    .navigation ul a{
+    }
+
+    .navigation {
+        display: none;
+        background-color: #EEE1E0;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+    }
+    .btn a img{
+        width: 30px;
+    }
+
+    .btn {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 400px;
+        padding: 20px;
+        
+        /* width: 10px; */
+    }
+
+    .hero_section{
+        display: block;
+        width: 300px;
+        height: 225px;
+        position: absolute;
+        left: 0;
+        padding: 20px;
+    }
+
+    .head .paragraph{
+        display: block;
+        justify-content: flex-start;
+        font-size: 30px;
+    }
+    .head .designatedText{
+        font-size: 30px;
+        line-height: 10px;
+    }
+
+    .image img{
+        display: block;
+        width: 300px;
+        position: absolute;
+        left: 0;
+        top: 350px;
+    }
+    
+    .head h1{
+        display: block;
+        width: 125px;
+        height: 32px;
+        line-height: 2rem;
+        font-size: 15px;
+        padding-left: 5px;
+        font-weight: 250;
+    }
+
+    .Text{
+        width: 230px;
+        line-height: 20px;
+    }
+
+    .btn1 div{
+        width: 100px;
+    }
+}
