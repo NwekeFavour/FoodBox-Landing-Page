@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 header .header_nav {
     display: flex;
     justify-content: space-around;
@@ -158,6 +159,495 @@ top: 40px;
 
 }
 
+.next-section .main_section{
+    display: block;
+    width: 1,146.99px;
+    height: 487.85px;
+    position: absolute;
+    top: 700.5px;
+    left: 60.45px;
+    /* gap: px; */
+    opacity: 0px;
+    
+    
+
+}
+
+
+.grid{
+    display: flex;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.cardOne p {
+    font-family: Poppins;
+    font-size: 23.34px;
+    font-weight: 600;
+    line-height: 28.01px;
+    text-align: center;
+    padding-top: 30px;
+    text-transform: capitalize;
+
+}
+
+
+.Card1 .text1{
+    position: relative;
+    right: 30px;
+font-size: 13.62px;
+font-weight: 400;
+line-height: 27.24px;
+text-align: center;
+    width: 200px;
+    gap: 0px;
+    opacity: 0px;
+    /* text-align: center; */
+    font-size: 13.62px;
+
+}
+
+.Card1 .p{
+    padding: 30px;
+    font-family: Poppins;
+    text-transform: capitalize;
+    font-size: 23.34px;
+    font-weight: 600;
+    line-height: 28.01px;
+    text-align: center;
+
+}
+
+.Card1 {
+    width: 122px;
+    height: 129px;
+    
+}
+
+.cardOne{
+    width:  271.57px;
+    height: 362.6px;
+    padding: 93.38px 78.79px 93.38px 78.79px;
+    border-radius: 31.13px;
+    border: 0.97px solid #FFE6E6;
+    /* opacity: 0px; */
+    color: #000;
+}
+
+.grid .cardOne:hover{
+    background-color: #FF2626;
+    color: #fff;
+}
+
+.section3{
+    width: 409px;
+    height: 63px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+
+}
+.section3 p{
+    /* display: block; */
+    /* font-family: Poppins; */
+    font-size: 52.52px; 
+    font-weight: 700;
+    line-height: 63.03px;
+    text-align: center;
+    text-transform: capitalize;    
+}
+
+.SectionThree{
+    position: absolute;
+    width: Hug (1,108.19px)px;
+    height: Hug (521.36px)px;
+    top: 1260.8px;
+    left: 126.45px;
+    opacity: 0px;
+
+}
+
+
+.circle {
+    background-color: #FF2626;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 110px;
+    top: -50px;
+    
+    
+}
+.section4{
+    display: flex;
+}
+
+.food{
+    width: 453.42px;
+    height: 126px;
+    gap: 0px;
+    opacity: 0px;
+    text-transform: capitalize;
+}
+
+.section4_image{
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+}
+
+.section4_image img{
+    width: 405.91px;
+    height: 521.36px;
+}
+
+.reviews h2{
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 500px;
+    font-size: 52.52px;
+}
+
+.reviews p{
+    font-size: 23.34px;
+    width: 500px;
+    line-height: 46.69px;
+}
+
+.reviews{
+    position: relative;
+    left: 42rem;
+    bottom: 36rem;
+}
+
+.reviewsImage{
+    margin: 20px;
+}
+
+.reviewsGrid{
+    display: flex;
+}
+
+.reviewsGrid div img {
+    width: 77.81px;
+    height: 77.81px;
+    gap: 0px;
+    border-radius: 96.3px;
+    border: 1.95px solid #fff;
+    opacity: 0px;
+
+}
+
+.reviewsGrid p {
+    text-transform: capitalize;
+}
+
+.Profile{
+    width: 100px;
+}
+
+.Profile p{
+    font-size: 23.34px;
+    margin: 0;
+    padding: 0;
+    width: Hug (201px)px;
+    height: Hug (62.78px)px;
+    gap: 7.78px;
+    opacity: 0px;
+}
+
+.faint{
+    font-family: Poppins;
+    font-size: 13.62px;
+    font-weight: 400;
+    line-height: 27.24px;
+    text-align: left;
+    color: #8B8B8B;
+}
+ 
+.sectionFive{
+    position: absolute;
+    top: 1800.53px;
+    left: 130px;
+    opacity: 0px;
+    display: flex;
+}
+
+.sectionFive_image{
+    position: absolute;
+    top: 220px;
+    left: -140px;
+}
+
+.smallImages{
+    width: 241.22px;
+    gap: 0px;
+    height: 77.81px;
+    position: relative;
+    bottom: 20px;
+    left: 170px;
+}
+
+.smallImages .imgsss{
+    position: relative;
+    right:10px;
+}
+
+
+.smallImages img{
+    width: 50.81px;
+    height:50.81px;
+    position: relative;
+    border-radius: 96.3px;
+    border: 1.95px solid #FFFFFF;
+    opacity: 0px;
+
+}
+
+.rectangle{
+    position: relative;
+    left: 250px;
+    top: 300px;
+    width: 328px;
+    height: 339.47px;
+    background-color: #FFE6E6;
+    z-index: -1;
+}
+
+
+.section5{
+    /* width: 483.42px;
+    height: 63px;
+    gap: 0px;
+    display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.section5 p{
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-size: 52.52px;
+    font-weight: 700;
+    line-height: 63.03px;
+    text-align: center;   
+}
+
+
+.Fifthsection {
+    /* display: flex; */
+    width: 1,029.1px;
+    height: Hug (276.54px)px;
+    /* gap: 62.25px; */
+    opacity: 0px;
+
+}
+
+.secondCard {
+    display: flex;
+    gap: 62.25px;
+    padding-top: 40px;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+
+
+
+.Bestfood{
+    font-family: Poppins;
+    font-size: 52.52px;
+    font-weight: 700;
+    line-height: 63.03px;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+
+.Button img{
+    width: 30.34px;
+    height: 30.34px;
+    padding: 5.84px 2.92px 5.84px 2.92px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.Button {
+    display: flex;
+}
+
+.Button a{
+    display: flex;
+    align-items: center;
+    width: Hug (195.16px)px;
+    height: Hug (55.13px)px;
+    padding: 15.56px 31.13px 15.56px 31.13px;
+    gap: 15.56px;
+    border-radius: 96.3px ;
+    opacity: 0px;
+    background-color: #FF2626;
+    color: #fff;
+    text-decoration: none;
+}
+
+.chef{
+    width: 417.28px;
+    height: 124px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.Bestfood2{
+    font-family: Poppins;
+    font-size: 15.56px;
+    font-weight: 400;
+    text-align: left;
+    color:#8B8B8B;
+
+}
+
+.wallpaper{
+    height: 486.34px;
+    width: 514.55px;
+}
+
+
+.Gadgets{
+    position: absolute;
+    left: 250px;
+    top: -230px;
+}
+
+.Credits {
+    position: absolute;
+    top: 190rem;
+    /* margin-left: 50px; */
+    /* display: flex; */
+}
+
+.LastSection{
+    margin: 40px;
+}
+
+.Footer_body{
+    display: flex;
+    text-align: justify;
+}
+
+.Footer_nav p{
+    position: relative;
+    bottom: 44px;
+    left: 100px;
+    font-family: Poppins;
+    font-size: 23.34px;
+    font-weight: 600;
+    line-height: 28.01px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.footerNavbar nav ul li{
+    
+}
+
+.FooterNav{
+    list-style-type: none;
+    color: #000;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+}
+
+.Footer_nav2 p{
+    position: relative;
+    bottom: 44px;
+    left: 250px;
+    font-family: Poppins;
+    font-size: 23.34px;
+    font-weight: 600;
+    line-height: 28.01px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.FooterNav2{
+    list-style-type: none;
+    color: #000;
+    position: relative;
+    left: 250px;
+    bottom: 30px;
+}
+
+.FooterNav2 a {
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.Footer_nav3 p{
+    position: relative;
+    bottom: 44px;
+    left: 450px;
+    font-family: Poppins;
+    font-size: 23.34px;
+    font-weight: 600;
+    line-height: 28.01px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.FooterNav3{
+    list-style-type: none;
+    color: #000;
+    position: relative;
+    left: 450px;
+    bottom: 30px;
+}
+.FooterNav3 a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.FooterNav a{
+    text-decoration: none;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.Footer_Images img{
+    position: relative;
+    left: 24px;
+    padding: 5px;
+    width: 62.25px;
+    height: 62.25px;
+    gap: 0px;
+    border-radius: 96.3px;
+    opacity: 0px;
+
+}
+
+.Footer_Images{
+    position: relative;
+    top: 150px;
+    right: 230px;
+    display: block;
+}
+
+.footer{
+    position: absolute;
+    top: 230rem;
+}
+
+.Footer-text{
+    padding-top: 20px;
+    width: 300px;
+}
+
 @media only screen  and (max-width: 768px){
     .header_nav .nav_image {
         position: absolute;
@@ -250,5 +740,40 @@ top: 40px;
 
     .btn1 div{
         width: 100px;
+    }
+
+    .main_section, .grid{
+        justify-content: center;
+        display: block;
+        position: relative;
+        top: 320px;
+    }
+
+    .section3{
+       position: relative;
+       top: 290px;
+       right: 32px;
+    }
+
+    .SectionThree{
+        display: block;
+    }
+
+    .food, .Bestfood{
+        font-size: 40px;
+        width: 300px;
+        position: relative;
+        right: 100px;
+    }
+
+    .Bestfood2{
+        width: 350px;
+        position: relative;
+        right: 100px;
+    }
+    
+    .Button{
+        position: relative;
+        right: 100px;
     }
 }
