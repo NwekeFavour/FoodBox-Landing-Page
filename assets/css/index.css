@@ -631,6 +631,10 @@ text-align: center;
 
 }
 
+.GroupImage{
+    display: none;
+}
+
 .Footer_Images{
     position: relative;
     top: 150px;
@@ -649,6 +653,10 @@ text-align: center;
 }
 
 @media only screen  and (max-width: 768px){
+
+    .cardOne{
+        margin-top: 10px;
+    }
     .header_nav .nav_image {
         position: absolute;
         top: 30px;
@@ -719,7 +727,7 @@ text-align: center;
         display: block;
         width: 300px;
         position: absolute;
-        left: 0;
+        left: 10px;
         top: 350px;
     }
     
@@ -742,38 +750,122 @@ text-align: center;
         width: 100px;
     }
 
+    .next-section .main_section{
+        width: 100px;
+    }
+
     .main_section, .grid{
         justify-content: center;
         display: block;
         position: relative;
-        top: 320px;
+        /* left:  -100px; */
+        top: 400px;
     }
 
     .section3{
        position: relative;
-       top: 290px;
-       right: 32px;
+       top: 370px;
+       right: -5px;
+    }
+
+    .section3 p{
+        font-size: 40px;
     }
 
     .SectionThree{
         display: block;
+        width: 100px;
     }
 
     .food, .Bestfood{
         font-size: 40px;
         width: 300px;
         position: relative;
-        right: 100px;
+        top: 300px;
+        right: 50px;
     }
+
+   
 
     .Bestfood2{
         width: 350px;
         position: relative;
-        right: 100px;
+        top: 300px;
+        right: 50px;
     }
     
     .Button{
+        width: 100px;
+        height: 60px;
+        position: relative;
+        top: 300px;
+        right: 50px;
+    }
+
+    .Button a {
+        font-size: 20px;
+    }
+
+    .section4{
+        display: block;
+        position: relative;
+        top: 60rem;
+    }
+
+    .section4_image{
+        position: relative;
+        top: 45rem;
+        left: -130px;
+    }
+
+    .section4_image img{
+        height: 400px;
+    }
+
+    .circle{
+        position: relative;
+        top: 55rem;
+    }
+
+    .section5 {
+        position: relative;
+        right: 110px;
+        top: 120rem;
+    }
+
+    .section5 p{
+        font-size: 30px;
+    }
+
+    .secondCard{
+        width: 100px;
+        display: block;
+    }
+
+    .Card1 img{
+        display: none;
+    }
+
+    .Card1 p {
+        display: none;
+    }
+
+    .lines img{
+        display: none;
+    }
+
+    .GroupImage{
         position: relative;
         right: 100px;
+        top: 120rem;
+        display: block;
+    }
+
+    .LastSection{
+        display: none;
+    }
+
+    .sectionFive_image{
+        display: none;
     }
 }
