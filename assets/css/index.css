@@ -478,6 +478,7 @@ text-align: center;
 
 .Button {
     display: flex;
+    text-transform: uppercase;
 }
 
 .Button a{
@@ -657,6 +658,7 @@ text-align: center;
     .cardOne{
         margin-top: 10px;
     }
+
     .header_nav .nav_image {
         position: absolute;
         top: 30px;
@@ -738,7 +740,7 @@ text-align: center;
         line-height: 2rem;
         font-size: 15px;
         align-items: center;
-        padding-left: 30px;
+        text-align: center;
         font-weight: 250;
     }
 
@@ -758,19 +760,24 @@ text-align: center;
     .main_section, .grid{
         justify-content: center;
         display: block;
-        position: relative;
-        /* left:  -100px; */
+        position: absolute;
+        left:  -35px;
         top: 400px;
     }
 
     .section3{
+        margin: 0;
        position: relative;
        top: 370px;
        right: -5px;
+       width: 200px;
     }
 
     .section3 p{
-        font-size: 40px;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
     }
 
     .SectionThree{
@@ -779,32 +786,45 @@ text-align: center;
     }
 
     .food, .Bestfood{
-        font-size: 40px;
-        width: 300px;
+        font-size: 25px;
+        width: 240px;
         position: relative;
         top: 300px;
         right: 50px;
+        line-height: 40px;
     }
 
-   
+   .chef{
+    width: 100px;
+   }
 
     .Bestfood2{
-        width: 350px;
+        width: 250px;
         position: relative;
         top: 300px;
         right: 50px;
     }
     
     .Button{
-        width: 100px;
-        height: 60px;
+        display: flex;
+        /* width: 200px; */
+        height: 50px;
         position: relative;
-        top: 300px;
+        top: 500px;
         right: 50px;
+        text-transform: uppercase;
     }
 
-    .Button a {
-        font-size: 20px;
+    .Button a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 10px;
+        padding: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
     }
 
     .section4{
@@ -814,28 +834,37 @@ text-align: center;
     }
 
     .section4_image{
-        position: relative;
-        top: 45rem;
-        left: -130px;
+        position: absolute;
+        top: 65rem;
+        left: -60px;
     }
 
     .section4_image img{
+        width: 205px;
         height: 400px;
     }
 
     .circle{
         position: relative;
-        top: 55rem;
+        right: 60px;
+        top: 62rem;
+        width: 100px;
+        height: 100px;
     }
 
     .section5 {
+        width: 10px;
         position: relative;
-        right: 110px;
+        right: 120px;
         top: 120rem;
     }
 
     .section5 p{
+        width: 300px;
         font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
     }
 
     .secondCard{
@@ -860,6 +889,23 @@ text-align: center;
         right: 100px;
         top: 120rem;
         display: block;
+        gap: 20px;
+    }
+
+    .GroupImage1{
+        position: relative;
+        right: -30px;
+        width: 200px;
+    }
+    .GroupImage2{
+        position: relative;
+        right: -30px;
+        width: 200px;
+    }
+    .GroupImage3{
+        position: relative;
+        right: -30px;
+        width: 200px;
     }
 
     .LastSection{
@@ -867,6 +913,34 @@ text-align: center;
     }
 
     .sectionFive_image{
-        display: none;
+        position: relative;
+        top: 90rem;
+    }
+
+    .sectionFive_image, .wallpaper{
+        width: 249px;
+        height: 189px;
+        position: relative;
+        right: 20px;
+    }
+
+    .rectangle{
+        position: relative;
+        top: 130px;
+        left: 80px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .smallImages{
+        position: relative;
+        left: 70px;
+        display: block;
+        width: 200px;
+    }
+
+    .smallImages img{
+        width: 25px;
+        height: 25px;
     }
 }
