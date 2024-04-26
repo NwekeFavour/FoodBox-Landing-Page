@@ -35,6 +35,10 @@ header .header_nav {
 .navigation ul a{
     text-decoration: none;
     color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .navigation ul a:hover{
@@ -51,8 +55,9 @@ header .header_nav {
 }
 
  .head h1{
-    font-weight: 500;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 19.45px;
     line-height: 23.34px;
     background-color: #FFE6E6;  
@@ -143,11 +148,11 @@ top: 40px;
     background-color: #FF2626;
     padding: 23px;
     gap: 15.56px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 13.62px;
-    font-weight: 600;
-    line-height: 23.34px;
-    letter-spacing: 0.1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
 
 }
 
@@ -158,6 +163,10 @@ top: 40px;
 .imgs1{
     text-transform: uppercase;
     gap: 15.56px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .Text{
@@ -706,6 +715,10 @@ text-align: center;
         width: 100%;
         height: 100vh;
         z-index: 1;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
     .btn a img{
         width: 30px;
@@ -756,12 +769,19 @@ text-align: center;
         font-size: 15px;
         align-items: center;
         text-align: center;
-        font-weight: 250;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
 
     .Text{
         width: 230px;
         line-height: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
 
     .btn1 div{
@@ -810,7 +830,7 @@ text-align: center;
     }
 
    .chef{
-    width: 100px;
+        width: 100px;
    }
 
     .Bestfood2{
@@ -935,12 +955,17 @@ text-align: center;
 
     .Footer_body{
         display: block;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
 
 
     .Footer-text{
         position: relative;
         top: 115rem;
+        
     }
 
     .FooterHeader{
@@ -972,6 +997,10 @@ text-align: center;
         top: 120rem;
         right: 100px;
         width: 100px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
 
     .Footer_nav2{
@@ -979,6 +1008,10 @@ text-align: center;
         top: 125rem;
         right: 250px;
         width: 100px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
 
     .Footer_nav3{
@@ -986,6 +1019,10 @@ text-align: center;
         top: 130rem;
         right: 450px;
         width: 200px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 14px;
     }
 
     .Footer_Images{
@@ -1103,5 +1140,13 @@ text-align: center;
     .closebtn:hover{
         color: #171717;
         font-size: 30px;
+    }
+
+    .returns{
+        width: 300px;
+    }
+
+    .Copyright{
+        text-align: center;
     }
 }
