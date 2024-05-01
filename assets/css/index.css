@@ -995,7 +995,7 @@ text-align: center;
     .Footer_nav{
         position: relative;
         top: 120rem;
-        right: 100px;
+        right: 110px;
         width: 100px;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
@@ -1006,7 +1006,7 @@ text-align: center;
     .Footer_nav2{
         position: relative;
         top: 125rem;
-        right: 250px;
+        right: 260px;
         width: 100px;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
@@ -1017,7 +1017,7 @@ text-align: center;
     .Footer_nav3{
         position: relative;
         top: 130rem;
-        right: 450px;
+        right: 460px;
         width: 200px;
         font-family: "Poppins", sans-serif;
         font-weight: 400;
@@ -1028,9 +1028,10 @@ text-align: center;
     .Footer_Images{
         position: relative;
         top: 130rem;
-        left: 25px;
+        left: 15px;
         width: 200px;
-        
+        display: flex;
+        justify-content: center;
     }
 
     .Footer_Images img{
@@ -1043,6 +1044,7 @@ text-align: center;
     .Footer_Images p{
         position: absolute;
         left: 25px;
+        top: 50px;
         width: 200px;
         font-size: 9px;
     }
